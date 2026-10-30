@@ -1,47 +1,96 @@
-# Bluff Rumble — Netlify-ready game
+# Bluff Rumble
 
-The current design, 500 questions, room codes, scoring, configurable rounds/timers, bots, and solo practice are preserved. The continuously running backend has been replaced by a standard Netlify Function and durable Netlify Blobs storage.
+### Trust your gut. Fool your friends.
 
-## Publish without GitHub or a terminal
+A multiplayer party game where believable lies win points. Write convincing fake answers, uncover the truth, and outsmart your friends.
 
-1. Download `netlify-ready-game.zip` and extract it. The extracted project folder must contain `netlify.toml` and `package.json` directly.
-2. Sign in to Netlify and use the **new-project drag-and-drop upload**. Drop the whole extracted project folder, not just `dist`, `public`, or the inner function ZIP.
-3. Let Netlify complete its install, build, function packaging, and deployment. Open the resulting site, create a room, and join its code on another device.
+🎮 **[Play Bluff Rumble](https://YOUR-NETLIFY-URL.netlify.app)**
 
-Netlify's signed-in new-project upload supports projects that need a build step. This flow is required for the TypeScript function. Anonymous static uploads and an existing site's static output dropzone do not provide the same build flow. Netlify's current instructions say to extract ZIPs before dragging the project folder; a raw ZIP upload is not guaranteed by those instructions. No GitHub repository, terminal commands, user-entered environment variables, API keys, or manual database creation are required. Normal Netlify sign-in is required.
+## About the Game
 
-Official deployment instructions: https://docs.netlify.com/deploy/create-deploys/#drag-and-drop
+Bluff Rumble supports 2–8 players joining from their own devices using a room code. Each round presents a question, players submit fake answers, and everyone tries to identify the truth among the bluffs.
 
-## Included
+Play with friends or practise against bots.
 
-- Root `netlify.toml`, `package.json`, `package-lock.json`, `.nvmrc`, and `tsconfig.json`.
-- Frontend source in `public/` and prebuilt frontend in `dist/`.
-- Exactly one function source entry: `netlify/functions/game.ts`.
-- Helpers outside the functions directory, in `lib/`.
-- The unchanged game engine, 500-question bank, and editable question sources.
-- The prepackaged Netlify function ZIP and function manifest in `artifacts/functions/`.
-- An inspectable self-contained production module in `artifacts/game.mjs`.
-- Automated engine, function, concurrency, SDK, and packaged-function tests.
-- Verification results in `VERIFICATION.md`.
+## Features
 
-The frontend calls `/.netlify/functions/game` directly. There is no `config.path`, API redirect, custom endpoint alias, or continuously running backend in this deployment project. Only `dist/` is published, so the answer bank, source code, tests, and function internals are not exposed as static assets.
+- Multiplayer rooms with easy room-code joining.
+- Responsive interface for phones, tablets, and laptops.
+- 500 questions covering funny facts, tricky questions, general knowledge, and riddles.
+- Customizable matches with 3, 5, 7, or 10 rounds.
+- Adjustable bluff and voting timers.
+- Up to seven bots, with eight total players per room.
+- Solo practice with bots.
+- Round results, scoreboards, and final winners.
+- No repeated questions within a room until the question bank is explicitly reset.
 
-## Storage and concurrency
+## How to Play
 
-A site-wide Netlify Blobs store is opened automatically using Netlify's runtime context. Reads use strong consistency. Creation uses `onlyIfNew`; every room update uses the ETag from the preceding read as `onlyIfMatch`. A losing write re-reads and re-applies the action instead of overwriting a newer room. Busy conflicts return an error rather than acknowledging an uncommitted action.
+1. **Create a room:** Enter your name and choose the rounds, timers, and number of bots.
+2. **Invite your friends:** Share the room code so they can join from their devices.
+3. **Write your bluff:** Submit a believable fake answer to the question.
+4. **Find the truth:** Choose the answer you think is correct.
+5. **See the reveal:** Discover who fooled whom and check the scores.
+6. **Take the crown:** Finish with the highest score to win.
 
-Mutation request IDs provide retry receipts so duplicate submissions, joins, starts, and votes do not execute twice. New-room creation is also idempotent. Private session tokens, correct answers, and bot scheduling remain server-side. The public state contains only the current player's eligible ballot and permitted information.
+For two-player games, additional game-written decoys keep the voting challenging.
 
-Timers and bots advance during player polling. When a function wakes after a quiet period, it replays overdue timer and bot events in deadline order, preserving rounds, scores, pauses, and disconnect handling without background processes or scheduled jobs. Rooms expire logically after 24 hours of inactivity; old blobs are not automatically deleted. No project-specific credentials are embedded in this ZIP.
+## Scoring
 
-## Play
+| Action | Points |
+| --- | ---: |
+| Choose the correct answer | 1,000 |
+| Submit a recognized correct answer | 1,000 |
+| Fool an opponent with your bluff | 500 per opponent |
 
-Create game comes first. The host chooses 3/5/7/10 rounds, 20/40/60/90 seconds for bluffs, 10/20/30/45 seconds for votes, and 0–7 bots, with eight total seats maximum. One human can practise against bots. Settings can be changed while idle, and lock during a match.
+Recognized correct submissions skip voting. Identical bluffs are merged, and each author earns points when an opponent selects that bluff. Players cannot vote for their own bluff. Tied leaders share the victory.
 
-Find the truth for 1,000 points. Earn 500 for each opponent fooled. Correct written answers get the truth bonus and skip voting. Duplicate bluffs merge and their authors cannot select them. Ties share victory. Bots use curated bluffs and random eligible votes, rather than a generative AI service. No repeat questions occur within a room until an explicit reset near bank exhaustion. New rooms have independent histories.
+## Technology
 
-## Verification scope
+- **Frontend:** HTML, CSS, and JavaScript.
+- **Backend:** TypeScript Netlify Function.
+- **Storage:** Netlify Blobs with strong consistency.
+- **Concurrency:** Conditional writes using ETags, with conflict retries.
+- **Hosting:** Netlify.
 
-The production build and actual packaged function ZIP have been tested locally with Netlify's SDK and local Blobs implementation. A complete three-round, two-player game verified a 4,500–0 result and the final winner. Conflict/idempotency tests use an atomic compare-and-swap test store, and the SDK adapter's strong-consistency and conditional-write options are checked separately. The SDK's local filesystem emulator is used sequentially for SDK-backed full-match tests; it is not treated as proof of production concurrency behaviour.
+The frontend communicates directly with `/.netlify/functions/game`. Timers and bots advance through player polling without a continuously running server.
 
-No deployment to your Netlify account has been performed. The first live Netlify deployment still needs its normal cross-device smoke test. The existing responsive design checks are retained; the HTML, CSS, engine, and question-bank files match the prior version exactly. Only the frontend transport changed.
+Bots use curated bluffs and random eligible votes; they do not use a generative AI service.
+
+## Project Structure
+
+    public/                     Frontend source
+    dist/                       Production frontend
+    netlify/functions/game.ts   Netlify Function entry point
+    lib/                        Backend and storage helpers
+    content/                    Editable question sources
+    engine.mjs                  Game rules and scoring
+    questions.json              500-question bank
+    tests/                      Function and integration tests
+    netlify.toml                Netlify configuration
+    VERIFICATION.md             Test results and scope
+
+## Deployment
+
+The game is hosted on Netlify:
+
+**[Open the live game](https://YOUR-NETLIFY-URL.netlify.app)**
+
+For a separate deployment, import this repository into Netlify. The included `netlify.toml` configures the build command, frontend output, and function directory.
+
+No project-specific API keys or manual database setup are required. Netlify supplies access to Blobs through its runtime.
+
+## Verification
+
+All 32 automated checks passed, including:
+
+- Game rules, scoring, settings, and bot behavior.
+- Retry handling and concurrent room updates.
+- Production build and packaged Netlify Function.
+- A complete three-round, two-player match with verified scores and a final winner.
+
+See [VERIFICATION.md](./VERIFICATION.md) for details and testing limitations.
+
+## Source Code
+
+[View the GitHub repository](https://github.com/YOUR-GITHUB-USERNAME/bluff-rumble)
