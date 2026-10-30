@@ -1,0 +1,41 @@
+{
+  "summary": "Complete: 221 passed, 0 failed (221 screen/viewport combinations)",
+  "passed": 221,
+  "failed": 0,
+  "screenStates": 17,
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    820,
+    1024,
+    1366,
+    1920
+  ],
+  "additionalViewports": [
+    [
+      768,
+      375
+    ],
+    [
+      820,
+      390
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      420
+    ]
+  ],
+  "checks": [
+    "Horizontal fit",
+    "44px minimum interactive targets including selects"
+  ],
+  "browser": "Chromium",
+  "version": "2.0.0"
+}

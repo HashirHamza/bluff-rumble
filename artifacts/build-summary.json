@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "name": "game",
+      "runtime": "js",
+      "runtimeAPIVersion": 2,
+      "mainFile": "/workspace/scratch/7730b23066ca/netlify-ready-game/netlify/functions/game.ts"
+    }
+  ],
+  "staticFiles": [
+    "app.js",
+    "index.html",
+    "style.css"
+  ],
+  "endpoint": "/.netlify/functions/game"
+}

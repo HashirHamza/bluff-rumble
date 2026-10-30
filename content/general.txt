@@ -1,0 +1,100 @@
+Which planet is closest to the Sun?|Mercury|Venus;Earth;Mars;Jupiter
+What is the largest planet in the solar system?|Jupiter|Saturn;Neptune;Earth;Uranus
+What is the name of Earth's natural satellite?|The Moon|Titan;Europa;Phobos;Triton|Moon;Luna
+Which galaxy contains our solar system?|Milky Way|Andromeda;Triangulum;Sombrero;Whirlpool|The Milky Way;Milky Way galaxy
+Which star is closest to Earth?|The Sun|Sirius;Polaris;Proxima Centauri;Betelgeuse|Sun;Sol
+What is the chemical symbol for gold?|Au|Ag;Gd;Go;Gl
+What is the chemical symbol for silver?|Ag|Au;Si;Sr;Sg
+What is the chemical symbol for iron?|Fe|Ir;In;Io;Fm
+What is the chemical formula for water?|H2O|CO2;O2;H2O2;NaCl
+Which gas makes up the largest proportion of Earth's atmosphere?|Nitrogen|Oxygen;Carbon dioxide;Argon;Hydrogen|N2
+Which gas do green plants absorb for photosynthesis?|Carbon dioxide|Oxygen;Helium;Hydrogen;Neon|CO2
+What green pigment helps plants absorb light for photosynthesis?|Chlorophyll|Melanin;Haemoglobin;Keratin;Carotene
+What is the hardest natural mineral on the Mohs scale?|Diamond|Quartz;Ruby;Topaz;Talc|Diamonds
+Which organ pumps blood around the human body?|Heart|Liver;Brain;Kidney;Lung|The heart
+Which human organ is primarily responsible for filtering blood to produce urine?|Kidney|Liver;Spleen;Pancreas;Stomach|Kidneys;The kidneys;The kidney
+Which blood cells carry most of the oxygen in human blood?|Red blood cells|White blood cells;Platelets;Stem cells;Nerve cells|Erythrocytes;Red blood cell
+Which organ is the main control centre of the nervous system?|Brain|Heart;Liver;Spleen;Pancreas|The brain
+What is the largest organ of the human body?|Skin|Liver;Brain;Lungs;Small intestine|The skin
+How many bones are usually in an adult human skeleton?|206|201;208;212;216|Two hundred and six;Two hundred six
+What is the name of the pigment that contributes to skin colour?|Melanin|Chlorophyll;Keratin;Collagen;Insulin
+What is the largest ocean on Earth?|Pacific Ocean|Atlantic Ocean;Indian Ocean;Arctic Ocean;Southern Ocean|Pacific;The Pacific Ocean
+Which continent is home to the Sahara Desert?|Africa|Asia;Australia;Europe;South America
+Which continent is home to the Amazon rainforest?|South America|North America;Africa;Asia;Australia
+What is the capital of Japan?|Tokyo|Kyoto;Osaka;Seoul;Beijing
+What is the capital of France?|Paris|Lyon;Marseille;Nice;Bordeaux
+What is the capital of Italy?|Rome|Milan;Venice;Florence;Naples
+What is the capital of Australia?|Canberra|Sydney;Melbourne;Perth;Brisbane
+What is the capital of Canada?|Ottawa|Toronto;Vancouver;Montreal;Quebec City
+What is the capital of India?|New Delhi|Mumbai;Kolkata;Chennai;Hyderabad
+What is the capital of Egypt?|Cairo|Alexandria;Luxor;Giza;Aswan
+What is the main official language of Brazil?|Portuguese|Spanish;French;Italian;English|Brazilian Portuguese
+Which country contains the ancient city of Petra?|Jordan|Egypt;Greece;Turkey;Lebanon
+Which country is home to the Taj Mahal?|India|Pakistan;Bangladesh;Nepal;Iran
+Which country is home to the Great Pyramid of Giza?|Egypt|Jordan;Greece;Mexico;Sudan
+Which country is home to Machu Picchu?|Peru|Chile;Bolivia;Ecuador;Colombia
+Which country is home to the city of Istanbul?|Turkey|Greece;Bulgaria;Romania;Georgia|Türkiye;Turkiye
+Which imaginary line divides Earth into northern and southern hemispheres?|Equator|Prime meridian;Tropic of Cancer;Arctic Circle;Tropic of Capricorn|The equator
+Which instrument measures atmospheric pressure?|Barometer|Hygrometer;Anemometer;Thermometer;Seismometer
+Which instrument measures wind speed?|Anemometer|Barometer;Hygrometer;Altimeter;Voltmeter
+Which instrument measures temperature?|Thermometer|Barometer;Anemometer;Ammeter;Hygrometer
+Which instrument detects and records earthquake vibrations?|Seismograph|Spectrometer;Barometer;Oscilloscope;Anemometer|Seismometer
+What is the unit of electrical resistance?|Ohm|Volt;Ampere;Watt;Joule|Ohms
+What is the SI unit of electric current?|Ampere|Volt;Ohm;Watt;Coulomb|Amp;Amperes;Amps
+What is the SI unit of force?|Newton|Joule;Watt;Pascal;Volt|Newtons
+What is the SI unit of energy?|Joule|Newton;Watt;Pascal;Ampere|Joules
+What is the SI unit of power?|Watt|Joule;Newton;Volt;Ohm|Watts
+What force keeps planets in orbit around the Sun?|Gravity|Friction;Buoyancy;Elasticity;Static electricity|Gravitation
+What is the process of a liquid turning into gas called?|Vaporization|Condensation;Freezing;Deposition;Melting|Vaporisation;Evaporation;Boiling
+What is the process of a gas turning into liquid called?|Condensation|Evaporation;Sublimation;Melting;Freezing
+What is the process of a solid turning into liquid called?|Melting|Freezing;Condensation;Deposition;Sublimation|Fusion
+What is the scientific study of plants called?|Botany|Zoology;Geology;Astronomy;Ecology
+What is the scientific study of animals called?|Zoology|Botany;Geology;Astronomy;Meteorology
+What is the scientific study of weather called?|Meteorology|Geology;Astronomy;Botany;Oceanography
+What is the scientific study of rocks and Earth's structure called?|Geology|Meteorology;Zoology;Botany;Astronomy
+What is the scientific study of stars and other celestial objects called?|Astronomy|Astrology;Geology;Meteorology;Ecology
+Which shape has six straight sides?|Hexagon|Pentagon;Heptagon;Octagon;Nonagon|A hexagon
+Which shape has eight straight sides?|Octagon|Hexagon;Heptagon;Nonagon;Decagon|An octagon
+How many degrees are in a right angle?|90|45;60;120;180|Ninety;90 degrees
+What is the smallest prime number?|Two|Zero;One;Three;Negative one|2
+What is the value of the Roman numeral X?|Ten|Five;Fifty;One hundred;Five hundred|10
+What is the value of the Roman numeral L?|Fifty|Ten;One hundred;Five hundred;One thousand|50
+What is the value of the Roman numeral C?|One hundred|Ten;Fifty;Five hundred;One thousand|100
+What is the name of a triangle with three equal sides?|Equilateral|Isosceles only;Scalene;Right-angled;Obtuse|Equilateral triangle;An equilateral triangle
+What is the longest side of a right triangle called?|Hypotenuse|Median;Radius;Diameter;Apothem|The hypotenuse
+Which punctuation mark usually ends a direct question in English?|Question mark|Comma;Colon;Semicolon;Full stop|A question mark
+What is a word with the opposite meaning of another word called?|Antonym|Synonym;Homophone;Acronym;Palindrome|An antonym
+What is a word with a similar meaning to another word called?|Synonym|Antonym;Homophone;Acronym;Anagram|A synonym
+What is a word made from the initial letters of several words, such as NASA, called?|Acronym|Palindrome;Homophone;Anagram;Antonym|An acronym
+What is a word that reads the same forwards and backwards, such as level, called?|Palindrome|Anagram;Synonym;Acronym;Homonym|A palindrome
+What is a rearrangement of a word's letters to make another word called?|Anagram|Palindrome;Acronym;Synonym;Antonym|An anagram
+Who wrote the play Romeo and Juliet?|William Shakespeare|Charles Dickens;Jane Austen;Mark Twain;Oscar Wilde|Shakespeare
+Who wrote Pride and Prejudice?|Jane Austen|Charlotte Bronte;Emily Bronte;Mary Shelley;George Eliot|Austen
+Who wrote Frankenstein?|Mary Shelley|Jane Austen;Agatha Christie;Virginia Woolf;George Eliot|Shelley
+Who created the fictional detective Sherlock Holmes?|Arthur Conan Doyle|Agatha Christie;Edgar Allan Poe;Charles Dickens;Wilkie Collins|Conan Doyle;Sir Arthur Conan Doyle
+Who painted the Mona Lisa?|Leonardo da Vinci|Michelangelo;Raphael;Vincent van Gogh;Claude Monet|Da Vinci;Leonardo
+Who painted The Starry Night in 1889?|Vincent van Gogh|Claude Monet;Pablo Picasso;Salvador Dali;Edvard Munch|Van Gogh
+Who composed The Four Seasons concertos?|Antonio Vivaldi|Ludwig van Beethoven;Johann Sebastian Bach;Wolfgang Amadeus Mozart;Frederic Chopin|Vivaldi
+Which musical instrument traditionally has 88 keys?|Piano|Violin;Flute;Trumpet;Clarinet|A piano;Standard piano
+What is the highest-pitched member of the standard orchestral string family?|Violin|Viola;Cello;Double bass;Contrabassoon|The violin
+Which instrument is played with a bow and is larger than a violin but smaller than a cello?|Viola|Double bass;Mandolin;Ukulele;Harp|A viola
+How many players per team are on the field in association football at the start of a standard match?|Eleven|Nine;Ten;Twelve;Thirteen|11
+How many players per team are on the court in standard basketball?|Five|Four;Six;Seven;Eight|5
+What object is struck over a net in badminton?|Shuttlecock|Puck;Squash ball;Disc;Boule|Shuttle;Birdie;A shuttlecock
+Which sport uses the terms love, deuce, and advantage?|Tennis|Cricket;Basketball;Golf;Hockey
+Which sport uses a puck on an ice rink?|Ice hockey|Field hockey;Lacrosse;Curling;Floorball|Hockey
+In cricket, what is a score of zero by a dismissed batter commonly called?|Duck|Goose;Swan;Dove;Pigeon|A duck
+What is the name of the chess piece that moves in an L shape?|Knight|Bishop;Rook;Queen;King|The knight;A knight
+Which chess piece moves diagonally any number of unobstructed squares?|Bishop|Rook;Knight;King;Pawn|The bishop;A bishop
+Which chess piece moves horizontally or vertically any number of unobstructed squares?|Rook|Bishop;Knight;King;Pawn|The rook;A rook;Castle
+What is the common name for frozen water?|Ice|Steam;Vapour;Mist;Dew
+What is the layer of gases surrounding Earth called?|Atmosphere|Lithosphere;Hydrosphere;Biosphere;Mantle|The atmosphere
+Which layer is directly below Earth's crust?|Mantle|Outer core;Inner core;Atmosphere;Oceanic trench|The mantle
+What is molten rock beneath Earth's surface called?|Magma|Lava;Basalt;Pumice;Obsidian
+What is molten rock called after it reaches Earth's surface?|Lava|Magma;Granite;Slate;Shale
+What is the name for a mountain that can erupt molten rock?|Volcano|Glacier;Plateau;Canyon;Delta|A volcano
+What is a large mass of ice that flows slowly over land called?|Glacier|Iceberg;Ice floe;Snowdrift;Hailstone|A glacier
+What is a floating mass of ice that has broken off a glacier called?|Iceberg|Glacier;Snowdrift;Hailstone;Moraine|An iceberg
+What is the main sugar transported in human blood commonly called?|Glucose|Lactose;Sucrose;Fructose;Maltose
+What is the name for an animal that eats both plants and animals?|Omnivore|Herbivore;Carnivore;Insectivore;Frugivore|An omnivore
+Which part of a flowering plant usually develops into the fruit after fertilization?|Ovary|Petal;Sepal;Anther;Stigma|The ovary

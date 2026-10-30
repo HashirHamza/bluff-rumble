@@ -1,0 +1,24 @@
+{
+  "functions": [
+    {
+      "bundler": "nft",
+      "invocationMode": "stream",
+      "buildData": {
+        "bootstrapVersion": "2.24.0",
+        "runtimeAPIVersion": 2
+      },
+      "mainFile": "netlify/functions/game.ts",
+      "name": "game",
+      "priority": 10,
+      "runtimeVersion": "nodejs22.x",
+      "path": "artifacts/functions/game.zip",
+      "runtime": "js"
+    }
+  ],
+  "system": {
+    "arch": "x64",
+    "platform": "linux"
+  },
+  "timestamp": 1793379448152,
+  "version": 1
+}
